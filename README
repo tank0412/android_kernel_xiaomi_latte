@@ -1,4 +1,11 @@
-        Linux kernel release 3.x <http://kernel.org/>
+ HOW TO BUILD:
+ ARCH=x86 CROSS_COMPILE=/home/tank0412/rr6/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin/x86_64-linux-android- make x86_64-latte_defconfig
+ make
+      
+      
+      
+      
+      Linux kernel release 3.x <http://kernel.org/>
 
 These are the release notes for Linux version 3.  Read them carefully,
 as they tell you what this is all about, explain how to install the
