@@ -1460,15 +1460,6 @@ extern void ieee80211_sta_ps_send_null_frame(struct ieee80211_device *ieee,
 
 extern const long ieee80211_wlan_frequencies[];
 
-extern inline void ieee80211_increment_scans(struct ieee80211_device *ieee)
-{
-	ieee->scans++;
-}
-
-extern inline int ieee80211_get_scans(struct ieee80211_device *ieee)
-{
-	return ieee->scans;
-}
 
 static inline const char *escape_essid(const char *essid, u8 essid_len) {
 	static char escaped[IW_ESSID_MAX_SIZE * 2 + 1];
